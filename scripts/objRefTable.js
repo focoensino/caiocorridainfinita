@@ -69,6 +69,7 @@ self.C3_JsPropNameTable = [
 	{Teclado: 0},
 	{Toque: 0},
 	{Áudio: 0},
+	{Texto: 0},
 	{VIDAS: 0},
 	{VELOCIDADE: 0},
 	{PONTOS: 0},
@@ -93,5 +94,6 @@ self.InstanceType = {
 	Vidasqtd: class extends self.ITextInstance {},
 	Teclado: class extends self.IInstance {},
 	Toque: class extends self.IInstance {},
-	Áudio: class extends self.IInstance {}
+	Áudio: class extends self.IInstance {},
+	Texto: class extends self.ITextInstance {}
 }
